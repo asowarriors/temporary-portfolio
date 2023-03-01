@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    background-color: #dfdfdfdf;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #0A1922;
+}
+
+.container{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.brand-section{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+.brand-title:hover{
+    scale: 1.1;
+    color: orangered;
+    
+}
+
+.center-menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 19rem;
+    padding: .5rem;
+}
+
+.menu a{
+    display: inline-block;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.menu > a:hover{
+    scale: 1.01;
+    color: orangered;
+    text-decoration: underline;
+
+}
+
+.right-menu{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+
+
+                            /* <----------profile container start-----------> */
+
+.profile-card-container{
+    width: 100%;
+    min-height: 350px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 3rem;
+    box-shadow: 2px 4px 7px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    
+    
+}
+
+.profile-picture-container{
+    height: 340px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.profile-squire-container{
+    width: 80%;
+    height: 80%;
+    border: none;
+    background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profile-circle-container{
+    height: 90%;
+    width: 77%;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-circle-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;  
+}
+
+.profile-circle-container > img:hover{
+    opacity: 0.8;
+}
+
+                /* profile information container  start */
+.profile-info-container{
+    width: 65%;
+    margin-top: 2rem;
+    padding-left: .5rem;
+
+}
+
+.profile-info{
+    margin: .5rem;
+}
+
+.profile-info > h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .14rem;
+}
+
+.profile-info > h4{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+}
+
+                        /* social media icons start*/
+.social-icons-container{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-top: 1rem;
+}
+
+.social-icons-container > img:hover{
+    cursor: pointer;
+}
+
+                        /* skill container start */
+.skill-chips{
+    display: flex;
+    gap: .5rem;
+    margin-top: .8rem;
+}
+
+.skill-chip{
+    border: none;
+    padding: .4rem .8rem;
+    background-color: #0A1922;
+    color: #FF9900;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .07rem;
+    border-radius: 6px;
+}
+
+.skill:hover{
+    cursor: pointer;
+}
+
+
+/* self details container */
+.profile-bio-container{
+    margin-top: .7rem;
+    width: 90%;
+}
+
+.profile-bio{
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+                         /* Profile container end */
+
+/* Skill section start */
+.my-skill-section{
+    width: 100%;
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding: 2.3rem 2rem 1.5rem 2rem;
+}
+
+.top-heading{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .6;
+    color: #333333;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icon-container > img{
+    width: 55px;
+    height: 55px;
+    
+}
+
+.skill-items-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+    
+}
+
+.title-container h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .08rem;
+}
+
+.title-container h3{
+    font-size: .8rem;
+    font-weight: bold;
+    margin-top: .27rem;
+}
+
+.title-container p{
+    font-size: .8rem;
+    color: #333;
+    margin-top: .6rem;
+}
+
